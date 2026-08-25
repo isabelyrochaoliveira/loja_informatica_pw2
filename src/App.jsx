@@ -28,8 +28,8 @@ function App() {
     },
     {
       nome: 'Gadgets',
-      corPrimaria: '#4f46e5',
-      corSecundaria: '#eef2ff'
+      corPrimaria: '#db6ebf',
+      corSecundaria: '#fae9f5'
     }
   ];
 
