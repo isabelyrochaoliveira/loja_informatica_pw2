@@ -1,16 +1,64 @@
-# React + Vite
+# Nexus Tech - Artigos de Informática
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em React para gerenciamento e catálogo de produtos de uma loja de informática, organizada por seções dinâmicas e marcas.
 
-Currently, two official plugins are available:
+Projeto desenvolvido para a 1ª Avaliação Prática da disciplina de Programação para a Web II (PRW2) do Instituto Federal de São Paulo (IFSP) - Câmpus São Carlos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Cadastro de produtos com seleção de seção, marca, nome, preço e condição (Novo ou Usado).
+* Renderização condicional de seções: a área de cada categoria só é exibida na tela caso contenha ao menos um produto cadastrado.
+* Exibição em cards com logos locais correspondentes a cada fabricante.
+* Remoção individual de itens diretamente pelo card do produto.
+* Formatação de valores numéricos para a moeda brasileira (BRL).
+* Formulário com limpeza automática dos estados após o envio.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Seções e Marcas
+
+* **Seções da Loja:** Acessórios, Computadores, Games, Impressoras e Gadgets.
+* **Marcas Disponíveis:** HP, Dell, Asus, Samsung e Apple.
+
+---
+
+## Tecnologias Utilizadas
+
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+
+---
+
+## Como Executar o Projeto Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/isabelyrochaoliveira/loja_informatica_pw2.git
+```
+
+2. Acesse o diretório do projeto:
+```bash
+cd loja_informatica_pw2
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+
+5. Abra o navegador no endereço indicado pelo terminal (geralmente ```http://localhost:5173```).
+
+--
+
+## Deploy
+
+O projeto está publicado e acessível no ambiente de produção da Vercel: ```https://loja-informatica-pw2.vercel.app/```
