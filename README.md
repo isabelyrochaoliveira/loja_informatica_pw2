@@ -57,7 +57,7 @@ npm run dev
 
 5. Abra o navegador no endereço indicado pelo terminal (geralmente ```http://localhost:5173```).
 
---
+---
 
 ## Deploy
 
